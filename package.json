@@ -2,9 +2,7 @@
   "name": "04-webpack-react-hmr",
   "version": "1.0.0",
   "license": "MIT",
-  "browserslist": [
-    "> 1%"
-  ],
+  "browserslist": ["> 1%"],
   "scripts": {
     "start": "yarn dev:start",
     "dev:start": "nodemon -e js,jsx --ignore lib --ignore dist --exec babel-node src/server",
@@ -24,7 +22,8 @@
     "compression": "^1.6.2",
     "express": "^4.15.3",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "next"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
