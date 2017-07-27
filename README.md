@@ -1,3 +1,5 @@
+Tutorial that I followed is [here](https://github.com/verekia/js-stack-from-scratch/blob/master/tutorial/04-webpack-react-hmr.md#readme).
+
 # What I learned in this module
 
 1. Webpack is a module bundler. It takes a whole bunch of various source files, processes them, and assembles them into one (usually) JavaScript file called a bundle, which is the only file your client will execute. 
